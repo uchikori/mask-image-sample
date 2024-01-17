@@ -1,0 +1,14 @@
+@use "../../global" as g;
+.bl_maskImg {
+  width: 100%;
+  height: 100svh;
+  position: relative;
+  mask-image: url("images/smoke_sprites.webp");
+  mask-size: 100% 4800%;
+  mask-position: 0 0;
+  animation: mask-play 2s steps(47) forwards;
+  &_img {
+    width: 100%;
+    height: 100%;
+  }
+}
